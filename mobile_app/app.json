@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "I Am Off!",
+    "icon": "./assets/icon.png",
+    "version": "4.0.0",
+    "slug": "iamoff",
+    "sdkVersion": "27.0.0",
+    "orientation": "portrait",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover"
+    },
+    "ios": {
+      "bundleIdentifier": "com.pokedoc.iamoff",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.pokedoc.iamoff",
+      "icon": "./assets/icon_android.png",
+      "versionCode": 4,
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "WAKE_LOCK",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    }
+  },
+  "name": "healthcalmobile",
+  "displayName": "I Am Off!"
+}
